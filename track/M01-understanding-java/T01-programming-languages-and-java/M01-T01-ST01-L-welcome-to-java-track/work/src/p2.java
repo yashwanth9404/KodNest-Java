@@ -4,9 +4,11 @@ public class p2{
       int num = 25;
     if (num > 0){
       System.out.println("Positive");
-    }else if (num < 0){
+    }
+    else if (num < 0){
       System.out.println("Negative");
-    }else{
+    }
+    else {
       System.out.println("Zero");
     }
   }
