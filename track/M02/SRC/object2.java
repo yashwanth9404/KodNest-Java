@@ -13,7 +13,7 @@ class Course {
     }
 }
 
-public class object {
+public class object2 {
     public static void main(String[] args) {
         Course java = new Course();
         java.code = "CB.EN.U4ECE22262";
@@ -22,8 +22,8 @@ public class object {
 
         Course python = new Course();
         python.code = "CS256";
-        python.studentName = "Uday";
-        python.fee = 50000;
+        python.studentName = "Yashwanth";
+        python.fee = 500000;
 
         System.out.println("\n" + "Student Name: " + java.studentName);
         System.out.println("Course Code: " + java.code);
@@ -31,5 +31,14 @@ public class object {
         java.eat();
         java.sleep();
         java.drink();
+
+        System.out.println("\n"+"Student Name: " +python.studentName);
+        System.out.println("Course Code: " + python.code);
+        System.out.println("Fee Paid: " + python.fee);
+
+        python.eat();
+        python.sleep();
+        python.drink();
+
     }
 }
