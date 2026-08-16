@@ -10,7 +10,7 @@ class ResultCalculator {
     }
 }
 
-public class overload3 {
+class overload3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
