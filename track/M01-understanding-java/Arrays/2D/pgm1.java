@@ -10,10 +10,9 @@ public class pgm1 {
 
         int arr[][] = new int[r][c];
 
-        System.out.println("Enter the Elements: ");
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-               System.out.print("Enter Element at (" + (i + 1) + ", " + (j + 1) + "): ");
+                System.out.print("Enter the row: " + (i+1) + " Coulumn: " + (j+1) + " Element");
                 arr[i][j] = scan.nextInt();
             }
         }
