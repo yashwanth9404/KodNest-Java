@@ -13,10 +13,12 @@ public class pgm1 {
         System.out.println("Enter the Elements: ");
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
+               System.out.print("Enter Element at (" + (i + 1) + ", " + (j + 1) + "): ");
                 arr[i][j] = scan.nextInt();
             }
         }
 
+        System.out.println("The 2D Matrix Is: ");
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 System.out.print(arr[i][j] + " ");
